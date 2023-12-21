@@ -1,6 +1,10 @@
-#include "iostream"
-using namespace std;
+#include <iostream>
+#include "src/List/Graph/Graph.h"
 
+using namespace std;
+using namespace list;
 int main(){
-    cout<<"hello world"<<endl;
+    cout<<"helo"<<endl;
+    Graph grp = Graph(3);
+    return 0;
 }

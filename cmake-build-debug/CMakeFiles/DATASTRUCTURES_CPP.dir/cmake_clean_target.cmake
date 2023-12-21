@@ -1,0 +1,3 @@
+file(REMOVE_RECURSE
+  "libDATASTRUCTURES_CPP.a"
+)

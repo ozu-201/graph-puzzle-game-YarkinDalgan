@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakePresetLoader"><![CDATA[{
+  "useNewFormat": true
+}]]></component>
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated>
+      <config projectName="graph-puzzle-game-YarkinDalgan" targetName="Main" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ad3c6241-6574-44e6-89b9-704c1465cb4c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/graph-puzzle-game-YarkinDalgan.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/LinkedListTest.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/catch.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cache-v2-ddc1cbe6087cafa8ba3b.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-eb86de1bf7619589142b.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-cf1f419d08077f7df53f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2023-12-14T11-05-19-0069.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-graph_puzzle_game_YarkinDalgan-Debug-3370789dbde04ef45535.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.25.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.25.2/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.25.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.25.2/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.25.2/CompilerIdC/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.25.2/CompilerIdC/a.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.25.2/CompilerIdCXX/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.25.2/CompilerIdCXX/a.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/graph_puzzle_game_YarkinDalgan.dir/Main.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/graph_puzzle_game_YarkinDalgan.dir/Test/LinkedListTest.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/graph_puzzle_game_YarkinDalgan.dir/src/Array/DartsGame/Element.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/graph_puzzle_game_YarkinDalgan.dir/src/Array/DartsGame/Queue.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/graph_puzzle_game_YarkinDalgan.dir/src/Array/DartsGame/State.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/graph_puzzle_game_YarkinDalgan.dir/src/Array/DartsGame/Test.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/graph_puzzle_game_YarkinDalgan.dir/src/Array/DisjointSet.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/graph_puzzle_game_YarkinDalgan.dir/src/Array/Element.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/graph_puzzle_game_YarkinDalgan.dir/src/Array/Graph/Graph.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/graph_puzzle_game_YarkinDalgan.dir/src/Array/Hash.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/graph_puzzle_game_YarkinDalgan.dir/src/Array/Heap/DHeap.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/graph_puzzle_game_YarkinDalgan.dir/src/Array/Heap/Heap.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/graph_puzzle_game_YarkinDalgan.dir/src/Array/Heap/HeapNode.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/graph_puzzle_game_YarkinDalgan.dir/src/Array/Heap/MaxDHeap.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/graph_puzzle_game_YarkinDalgan.dir/src/Array/Heap/MaxHeap.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/graph_puzzle_game_YarkinDalgan.dir/src/Array/Heap/MinDHeap.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/graph_puzzle_game_YarkinDalgan.dir/src/Array/Heap/MinHeap.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/graph_puzzle_game_YarkinDalgan.dir/src/Array/MathematicalExpression/Element.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/graph_puzzle_game_YarkinDalgan.dir/src/Array/MathematicalExpression/Evaluate.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/graph_puzzle_game_YarkinDalgan.dir/src/Array/MathematicalExpression/Stack.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/graph_puzzle_game_YarkinDalgan.dir/src/Array/MathematicalExpression/Token.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/graph_puzzle_game_YarkinDalgan.dir/src/Array/Queue.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/graph_puzzle_game_YarkinDalgan.dir/src/Array/Set.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/graph_puzzle_game_YarkinDalgan.dir/src/Array/Sort/BubbleSort.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/graph_puzzle_game_YarkinDalgan.dir/src/Array/Sort/BucketSort.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/graph_puzzle_game_YarkinDalgan.dir/src/Array/Sort/HeapSort.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/graph_puzzle_game_YarkinDalgan.dir/src/Array/Sort/InsertionSort.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/graph_puzzle_game_YarkinDalgan.dir/src/Array/Sort/MergeSort.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/graph_puzzle_game_YarkinDalgan.dir/src/Array/Sort/QuickSort.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/graph_puzzle_game_YarkinDalgan.dir/src/Array/Sort/SelectionSort.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/graph_puzzle_game_YarkinDalgan.dir/src/Array/Sort/ShellSort.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/graph_puzzle_game_YarkinDalgan.dir/src/Array/Stack.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/graph_puzzle_game_YarkinDalgan.dir/src/General/AbstractGraph.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/graph_puzzle_game_YarkinDalgan.dir/src/General/Path.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/graph_puzzle_game_YarkinDalgan.dir/src/List/DoublyLinkedList.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/graph_puzzle_game_YarkinDalgan.dir/src/List/DoublyNode.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/graph_puzzle_game_YarkinDalgan.dir/src/List/Graph/Edge.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/graph_puzzle_game_YarkinDalgan.dir/src/List/Graph/EdgeList.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/graph_puzzle_game_YarkinDalgan.dir/src/List/Graph/Graph.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/graph_puzzle_game_YarkinDalgan.dir/src/List/Hash.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/graph_puzzle_game_YarkinDalgan.dir/src/List/LinkedList.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/graph_puzzle_game_YarkinDalgan.dir/src/List/Node.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/graph_puzzle_game_YarkinDalgan.dir/src/List/Polynomial/Polynomial.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/graph_puzzle_game_YarkinDalgan.dir/src/List/Polynomial/Term.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/graph_puzzle_game_YarkinDalgan.dir/src/List/Polynomial/TermNode.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/graph_puzzle_game_YarkinDalgan.dir/src/List/Polynomial/TestPolynomial.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/graph_puzzle_game_YarkinDalgan.dir/src/List/Queue.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/graph_puzzle_game_YarkinDalgan.dir/src/List/Stack.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/graph_puzzle_game_YarkinDalgan.dir/src/Tree/AvlTree.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/graph_puzzle_game_YarkinDalgan.dir/src/Tree/AvlTreeNode.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/graph_puzzle_game_YarkinDalgan.dir/src/Tree/BTree.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/graph_puzzle_game_YarkinDalgan.dir/src/Tree/BTreeNode.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/graph_puzzle_game_YarkinDalgan.dir/src/Tree/Element.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/graph_puzzle_game_YarkinDalgan.dir/src/Tree/Queue.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/graph_puzzle_game_YarkinDalgan.dir/src/Tree/Stack.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/graph_puzzle_game_YarkinDalgan.dir/src/Tree/Tree.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/graph_puzzle_game_YarkinDalgan.dir/src/Tree/TreeNode.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/DartsGame/Element.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/DartsGame/Element.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/DartsGame/Element.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/DartsGame/Element.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/DartsGame/Queue.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/DartsGame/Queue.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/DartsGame/Queue.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/DartsGame/Queue.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/DartsGame/State.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/DartsGame/State.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/DartsGame/State.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/DartsGame/State.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/DartsGame/Test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/DartsGame/Test.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/DisjointSet.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/DisjointSet.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/DisjointSet.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/DisjointSet.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/Element.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/Element.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/Element.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/Element.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/Graph/Graph.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/Graph/Graph.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/Graph/Graph.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/Graph/Graph.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/Hash.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/Hash.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/Hash.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/Hash.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/Heap/DHeap.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/Heap/DHeap.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/Heap/DHeap.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/Heap/DHeap.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/Heap/Heap.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/Heap/Heap.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/Heap/Heap.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/Heap/Heap.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/Heap/HeapNode.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/Heap/HeapNode.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/Heap/HeapNode.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/Heap/HeapNode.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/Heap/MaxDHeap.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/Heap/MaxDHeap.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/Heap/MaxDHeap.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/Heap/MaxDHeap.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/Heap/MaxHeap.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/Heap/MaxHeap.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/Heap/MaxHeap.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/Heap/MaxHeap.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/Heap/MinDHeap.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/Heap/MinDHeap.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/Heap/MinDHeap.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/Heap/MinDHeap.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/Heap/MinHeap.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/Heap/MinHeap.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/Heap/MinHeap.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/Heap/MinHeap.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/MathematicalExpression/Element.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/MathematicalExpression/Element.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/MathematicalExpression/Element.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/MathematicalExpression/Element.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/MathematicalExpression/Evaluate.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/MathematicalExpression/Evaluate.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/MathematicalExpression/Stack.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/MathematicalExpression/Stack.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/MathematicalExpression/Stack.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/MathematicalExpression/Stack.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/MathematicalExpression/Token.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/MathematicalExpression/Token.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/MathematicalExpression/Token.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/MathematicalExpression/Token.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/MathematicalExpression/TokenType.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/MathematicalExpression/TokenType.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/Queue.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/Queue.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/Queue.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/Queue.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/Set.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/Set.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/Set.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/Set.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/Sort/BubbleSort.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/Sort/BubbleSort.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/Sort/BubbleSort.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/Sort/BubbleSort.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/Sort/BucketSort.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/Sort/BucketSort.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/Sort/BucketSort.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/Sort/BucketSort.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/Sort/HeapSort.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/Sort/HeapSort.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/Sort/HeapSort.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/Sort/HeapSort.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/Sort/InsertionSort.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/Sort/InsertionSort.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/Sort/InsertionSort.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/Sort/InsertionSort.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/Sort/MergeSort.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/Sort/MergeSort.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/Sort/MergeSort.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/Sort/MergeSort.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/Sort/QuickSort.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/Sort/QuickSort.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/Sort/QuickSort.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/Sort/QuickSort.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/Sort/SelectionSort.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/Sort/SelectionSort.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/Sort/SelectionSort.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/Sort/SelectionSort.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/Sort/ShellSort.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/Sort/ShellSort.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/Sort/ShellSort.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/Sort/ShellSort.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/Sort/Sort.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/Sort/Sort.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/Stack.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/Stack.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/Stack.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/Stack.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/General/AbstractGraph.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/General/AbstractGraph.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/General/AbstractGraph.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/General/AbstractGraph.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/General/Path.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/General/Path.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/General/Path.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/General/Path.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/List/DoublyLinkedList.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/List/DoublyLinkedList.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/List/DoublyLinkedList.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/List/DoublyLinkedList.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/List/DoublyNode.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/List/DoublyNode.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/List/DoublyNode.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/List/DoublyNode.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/List/Graph/Edge.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/List/Graph/Edge.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/List/Graph/Edge.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/List/Graph/Edge.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/List/Graph/EdgeList.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/List/Graph/EdgeList.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/List/Graph/EdgeList.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/List/Graph/EdgeList.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/List/Graph/Graph.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/List/Graph/Graph.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/List/Graph/Graph.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/List/Graph/Graph.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/List/Hash.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/List/Hash.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/List/Hash.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/List/Hash.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/List/LinkedList.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/List/LinkedList.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/List/LinkedList.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/List/LinkedList.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/List/Node.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/List/Node.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/List/Node.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/List/Node.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/List/Polynomial/Polynomial.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/List/Polynomial/Polynomial.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/List/Polynomial/Polynomial.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/List/Polynomial/Polynomial.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/List/Polynomial/Term.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/List/Polynomial/Term.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/List/Polynomial/Term.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/List/Polynomial/Term.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/List/Polynomial/TermNode.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/List/Polynomial/TermNode.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/List/Polynomial/TermNode.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/List/Polynomial/TermNode.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/List/Polynomial/TestPolynomial.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/List/Polynomial/TestPolynomial.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/List/Queue.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/List/Queue.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/List/Queue.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/List/Queue.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/List/Stack.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/List/Stack.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/List/Stack.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/List/Stack.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tree/AvlTree.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/AvlTree.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tree/AvlTree.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/AvlTree.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tree/AvlTreeNode.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/AvlTreeNode.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tree/AvlTreeNode.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/AvlTreeNode.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tree/BTree.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/BTree.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tree/BTree.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/BTree.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tree/BTreeNode.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/BTreeNode.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tree/BTreeNode.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/BTreeNode.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tree/Element.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/Element.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tree/Element.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/Element.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tree/Queue.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/Queue.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tree/Queue.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/Queue.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tree/Stack.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/Stack.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tree/Stack.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/Stack.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tree/Tree.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/Tree.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tree/Tree.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/Tree.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tree/TreeNode.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/TreeNode.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tree/TreeNode.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/TreeNode.h" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CMakeLists.txt" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2ZqcNw7wRwAQYnrbhHvQ3CPymbP" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\TEMP.OZUN\CLionProjects\graph-puzzle-game-YarkinDalgan" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="graph-puzzle-game-YarkinDalgan" TARGET_NAME="Main" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="graph-puzzle-game-YarkinDalgan" RUN_TARGET_NAME="Main">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ad3c6241-6574-44e6-89b9-704c1465cb4c" name="Changes" comment="" />
+      <created>1703153015545</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1703153015545</updated>
+      <workItem from="1703153017294" duration="2806000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VCPKGProject">
+    <isAutomaticEditVcpkgJson value="false" />
+    <isAutomaticCheckingOnLaunch value="false" />
+    <isAutomaticFoundErrors value="true" />
+    <isAutomaticFoundErrors value="true" />
+  </component>
+</project>
