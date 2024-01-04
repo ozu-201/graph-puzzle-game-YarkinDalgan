@@ -1,7 +1,3 @@
-//
-// Created by Olcay Taner YILDIZ on 8.05.2023.
-//
-
 #include "EdgeList.h"
 
 EdgeList::EdgeList() {

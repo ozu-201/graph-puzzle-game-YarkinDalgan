@@ -1,7 +1,3 @@
-//
-// Created by Olcay Taner YILDIZ on 27.03.2023.
-//
-
 #ifndef DATASTRUCTURES_CPP_QUEUE_H
 #define DATASTRUCTURES_CPP_QUEUE_H
 

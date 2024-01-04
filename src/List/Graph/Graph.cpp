@@ -1,11 +1,5 @@
-//
-// Created by Olcay Taner YILDIZ on 8.05.2023.
-//
-
 #include "Graph.h"
-#include "../../Array/DisjointSet.h"
 #include "../Queue.h"
-#include "../../Array/Heap/MinHeap.h"
 
 namespace list {
 
@@ -28,22 +22,6 @@ namespace list {
 
     Graph::~Graph() {
         delete[] edges;
-    }
-
-    void Graph::connectedComponentsDisjointSet() {
-        Edge* edge;
-        int toNode;
-        DisjointSet sets = DisjointSet(vertexCount);
-        for (int fromNode = 0; fromNode < vertexCount; fromNode++){
-            edge = edges[fromNode].getHead();
-            while (edge != nullptr){
-                toNode = edge->getTo();
-                if (sets.findSetRecursive(fromNode) != sets.findSetRecursive(toNode)){
-                    sets.unionOfSets(fromNode, toNode);
-                }
-                edge = edge->getNext();
-            }
-        }
     }
 
     void Graph::depthFirstSearch(bool *visited, int fromNode) {
@@ -79,52 +57,6 @@ namespace list {
         }
     }
 
-    Path *Graph::bellmanFord(int source) {
-        Edge* edge;
-        Path* shortestPaths = initializePaths(source);
-        for (int i = 0; i < vertexCount - 1; i++){
-            for (int fromNode = 0; fromNode < vertexCount; fromNode++){
-                edge = edges[fromNode].getHead();
-                while (edge != nullptr){
-                    int toNode = edge->getTo();
-                    int newDistance = shortestPaths[fromNode].getDistance() + edge->getWeight();
-                    if (newDistance < shortestPaths[toNode].getDistance()){
-                        shortestPaths[toNode].setDistance(newDistance);
-                        shortestPaths[toNode].setPrevious(fromNode);
-                    }
-                    edge = edge->getNext();
-                }
-            }
-        }
-        return shortestPaths;
-    }
-
-    Path *Graph::dijkstra(int source) {
-        Edge* edge;
-        Path* shortestPaths = initializePaths(source);
-        MinHeap heap = MinHeap(vertexCount);
-        for (int i = 0; i < vertexCount; i++){
-            heap.insert(HeapNode(shortestPaths[i].getDistance(), i));
-        }
-        while (!heap.isEmpty()){
-            HeapNode node = heap.deleteTop();
-            int fromNode = node.getName();
-            edge = edges[fromNode].getHead();
-            while (edge != nullptr){
-                int toNode = edge->getTo();
-                int newDistance = shortestPaths[fromNode].getDistance() + edge->getWeight();
-                if (newDistance < shortestPaths[toNode].getDistance()){
-                    int position = heap.search(toNode);
-                    heap.update(position, newDistance);
-                    shortestPaths[toNode].setDistance(newDistance);
-                    shortestPaths[toNode].setPrevious(fromNode);
-                }
-                edge = edge->getNext();
-            }
-        }
-        return shortestPaths;
-    }
-
     Edge *Graph::edgeList(int& edgeCount) {
         Edge* list;
         edgeCount = 0;
@@ -148,27 +80,59 @@ namespace list {
         return list;
     }
 
-    void Graph::prim() {
-        Path* paths = initializePaths(0);
-        MinHeap heap = MinHeap(vertexCount);
-        for (int i = 0; i < vertexCount; i++){
-            heap.insert(HeapNode(paths[i].getDistance(), i));
-        }
-        while (!heap.isEmpty()){
-            HeapNode node = heap.deleteTop();
-            int fromNode = node.getName();
-            Edge* edge = edges[fromNode].getHead();
-            while (edge != nullptr){
-                int toNode = edge->getTo();
-                if (paths[toNode].getDistance() > edge->getWeight()){
-                    int position = heap.search(toNode);
-                    heap.update(position, edge->getWeight());
-                    paths[toNode].setDistance(edge->getWeight());
-                    paths[toNode].setPrevious(fromNode);
+
+    void Graph::wordLadderBFS(const vector<string>& words, int startNodeIndex, int endNodeIndex) {
+        int vertexCount = static_cast<int>(words.size());
+        vector<bool> visited(vertexCount, false);
+        list::Queue queue;
+
+        queue.enqueue(new Node(startNodeIndex));
+        visited[startNodeIndex] = true;
+        vector<int> previous(vertexCount, -1);
+
+        while (!queue.isEmpty()) {
+            Node* currentNode = queue.dequeue();
+            int currentNodeIndex = currentNode->getData();
+            delete currentNode;
+
+            //cout << currentNodeIndex << " " << words[currentNodeIndex] << endl;
+            if (currentNodeIndex == endNodeIndex) {
+                cout << "shortest path: " << endl;
+                vector<int> shortestPath;
+                int nodeIndex = endNodeIndex;
+                while (nodeIndex != -1) {
+                    shortestPath.push_back(nodeIndex);
+                    nodeIndex = previous[nodeIndex];
+                }
+
+                vector<int> reversedVector(shortestPath.size());
+
+                for (size_t i = 0; i < shortestPath.size(); ++i) {
+                    reversedVector[i] = shortestPath[shortestPath.size() - 1 - i];
+                }
+
+                for (size_t i = 0; i < reversedVector.size(); ++i) {
+                    if (i == reversedVector.size() - 1)
+                        cout << words[reversedVector[i]];
+                    else
+                        cout << words[reversedVector[i]] << " -> ";
+                }
+                cout << endl;
+                return;
+            }
+
+            Edge* edge = edges[currentNodeIndex].getHead();
+            while (edge != nullptr) {
+                int neighbor = edge->getTo();
+                if (!visited[neighbor]) {
+                    visited[neighbor] = true;
+                    queue.enqueue(new Node(neighbor));
+                    previous[neighbor] = currentNodeIndex;
                 }
                 edge = edge->getNext();
             }
         }
+        cout << "The target node could not be reached." << endl;
     }
 
 }

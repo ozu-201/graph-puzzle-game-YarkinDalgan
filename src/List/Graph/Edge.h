@@ -1,7 +1,3 @@
-//
-// Created by Olcay Taner YILDIZ on 8.05.2023.
-//
-
 #ifndef DATASTRUCTURES_CPP_EDGE_H
 #define DATASTRUCTURES_CPP_EDGE_H
 

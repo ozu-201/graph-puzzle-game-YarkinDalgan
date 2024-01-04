@@ -1,7 +1,3 @@
-//
-// Created by Olcay Taner YILDIZ on 27.03.2023.
-//
-
 #include "Queue.h"
 
 namespace list {

@@ -1,13 +1,11 @@
-//
-// Created by Olcay Taner YILDIZ on 8.05.2023.
-//
-
 #ifndef DATASTRUCTURES_CPP_GRAPH_H
 #define DATASTRUCTURES_CPP_GRAPH_H
 
 
 #include "EdgeList.h"
 #include "../../General/AbstractGraph.h"
+#include <vector>
+#include <iostream>
 
 namespace list {
 
@@ -19,10 +17,8 @@ namespace list {
         ~Graph();
         void addEdge(int from, int to);
         void addEdge(int from, int to, int weight);
-        void connectedComponentsDisjointSet();
-        Path* bellmanFord(int source);
-        Path* dijkstra(int source);
-        void prim();
+        void wordLadderBFS(const std::vector<std::string>& words, int startNodeIndex, int endNodeIndex);
+
     protected:
         void depthFirstSearch(bool* visited, int fromNode) override;
         void breadthFirstSearch(bool* visited, int startNode) override;

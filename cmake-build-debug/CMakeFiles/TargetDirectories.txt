@@ -1,3 +1,4 @@
-C:/Users/TEMP.OZUN/CLionProjects/graph-puzzle-game-YarkinDalgan/cmake-build-debug/CMakeFiles/Main.dir
-C:/Users/TEMP.OZUN/CLionProjects/graph-puzzle-game-YarkinDalgan/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/TEMP.OZUN/CLionProjects/graph-puzzle-game-YarkinDalgan/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/TEMP.OZUN.000/CLionProjects/graph-puzzle-game-YarkinDalgan/cmake-build-debug/CMakeFiles/graph-puzzle-game-YarkinDalgan.dir
+C:/Users/TEMP.OZUN.000/CLionProjects/graph-puzzle-game-YarkinDalgan/cmake-build-debug/CMakeFiles/Main.dir
+C:/Users/TEMP.OZUN.000/CLionProjects/graph-puzzle-game-YarkinDalgan/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/TEMP.OZUN.000/CLionProjects/graph-puzzle-game-YarkinDalgan/cmake-build-debug/CMakeFiles/rebuild_cache.dir

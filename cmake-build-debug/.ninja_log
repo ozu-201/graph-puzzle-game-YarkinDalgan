@@ -1,0 +1,16 @@
+# ninja log v5
+2	569	7260654585701202	CMakeFiles/Main.dir/src/List/Graph/Edge.cpp.obj	d4870bac0d36e8ce
+14	577	7260654585701202	CMakeFiles/Main.dir/src/General/AbstractGraph.cpp.obj	7cadfe9b1d643fc6
+21	1189	7260654591627236	CMakeFiles/Main.dir/Main.cpp.obj	97812ba5f538b9bf
+572	1197	7260654591845262	CMakeFiles/Main.dir/src/List/Node.cpp.obj	46287262bd01597f
+577	1202	7260654591976406	CMakeFiles/Main.dir/src/List/Graph/Graph.cpp.obj	165ed894a4143366
+1191	1291	7260654592956566	CMakeFiles/Main.dir/src/List/Graph/EdgeList.cpp.obj	464673eb18d4069
+1198	1637	7260654596426818	CMakeFiles/Main.dir/src/List/Queue.cpp.obj	808ca1dee37b36c0
+1637	2328	7260654603280664	Main.exe	50fccc3a3221cbcc
+5	968	7260673465496085	CMakeFiles/Main.dir/Main.cpp.obj	97812ba5f538b9bf
+13	1013	7260673465955796	CMakeFiles/Main.dir/src/List/Graph/Graph.cpp.obj	165ed894a4143366
+1013	1243	7260673468217152	Main.exe	50fccc3a3221cbcc
+3	798	7260673840478984	CMakeFiles/Main.dir/src/List/Graph/Graph.cpp.obj	165ed894a4143366
+799	1031	7260673842789390	Main.exe	50fccc3a3221cbcc
+4	800	7260675944460813	CMakeFiles/Main.dir/Main.cpp.obj	97812ba5f538b9bf
+801	977	7260675946160941	Main.exe	50fccc3a3221cbcc

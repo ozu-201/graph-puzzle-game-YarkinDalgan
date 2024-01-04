@@ -1,7 +1,3 @@
-//
-// Created by Olcay Taner YILDIZ on 8.05.2023.
-//
-
 #include "Edge.h"
 
 Edge::Edge(int from, int to, int weight) {

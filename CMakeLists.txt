@@ -3,4 +3,10 @@ project(graph-puzzle-game-YarkinDalgan)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(Main Main.cpp src/List/Node.cpp src/List/LinkedList.cpp src/List/DoublyNode.cpp src/List/DoublyLinkedList.cpp src/Array/Element.cpp src/Array/Stack.cpp src/List/Stack.cpp src/Array/Queue.cpp src/List/Queue.cpp src/Tree/Tree.cpp  src/Tree/TreeNode.cpp src/Tree/Element.cpp src/Tree/Stack.cpp src/Tree/Queue.cpp src/Tree/AvlTree.cpp src/Tree/AvlTreeNode.cpp  src/Tree/BTree.cpp src/Tree/BTreeNode.cpp src/Array/Hash.cpp src/List/Hash.cpp src/Array/Heap/Heap.cpp  src/Array/Heap/HeapNode.cpp src/Array/Heap/DHeap.cpp  src/Array/Set.cpp src/Array/DisjointSet.cpp src/Array/Graph/Graph.cpp  src/List/Graph/Edge.cpp  src/List/Graph/EdgeList.cpp  src/List/Graph/Graph.cpp  src/General/Path.cpp  src/General/AbstractGraph.cpp  src/Array/Heap/MaxHeap.cpp  src/Array/Heap/MaxDHeap.cpp  src/Array/Heap/MinHeap.cpp src/Array/Heap/MinDHeap.cpp   src/Array/Sort/BubbleSort.cpp  src/Array/Sort/BucketSort.cpp src/Array/Sort/HeapSort.cpp  src/Array/Sort/InsertionSort.cpp  src/Array/Sort/MergeSort.cpp  src/Array/Sort/QuickSort.cpp  src/Array/Sort/SelectionSort.cpp  src/Array/Sort/ShellSort.cpp)
+add_library(graph-puzzle-game-YarkinDalgan src/General/AbstractGraph.h src/General/AbstractGraph.cpp src/List/Graph/Edge.h
+        src/List/Graph/Edge.cpp src/List/Graph/EdgeList.h src/List/Graph/EdgeList.cpp src/List/Graph/Graph.h src/List/Graph/Graph.cpp
+        src/List/Node.h src/List/Node.cpp src/List/Queue.h src/List/Queue.cpp)
+
+add_executable(Main Main.cpp src/General/AbstractGraph.h src/General/AbstractGraph.cpp src/List/Graph/Edge.h
+        src/List/Graph/Edge.cpp src/List/Graph/EdgeList.h src/List/Graph/EdgeList.cpp src/List/Graph/Graph.h src/List/Graph/Graph.cpp
+        src/List/Node.h src/List/Node.cpp src/List/Queue.h src/List/Queue.cpp)
